@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import Pills from './Mini=Projects/minniy/Pills'
+// import Pills from './Mini=Projects/minniy/Pills'
 
 function App() {
   const [input, setInput] = useState('')

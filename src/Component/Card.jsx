@@ -11,7 +11,7 @@ function Card({ name, cloudinaryImageId, locality, areaName, costForTwo, cuisine
                         alt={name}
                         className='w-full h-full object-cover rounded-t-2xl transition-transform duration-300 ease-in-out hover:scale-110'
                     />
-                    {/* Rating badge */}
+                    {/* Rating badge */} 
                     <div className='absolute top-2 left-2 bg-[#48c479] text-white px-3 py-1 text-xs font-bold rounded-full shadow-md'>
                         ⭐ {avgRating || 'N/A'}
                     </div>

@@ -1,6 +1,6 @@
 
 import React from 'react'
-import User from './funComp/FunComp'
+// import User from './funComp/FunComp'
 
 
 export default function About() {
@@ -13,7 +13,7 @@ export default function About() {
                 </div>
             </div>
 
-            <User name={"Ankit janid"}/>
+            {/* <User name={"Ankit janid"}/> */}
             {/* <UserClass/> */}
         </>
     )
